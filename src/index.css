@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #c2a25d;
+  --color-gold-dark: #b3934e;
+  --color-bg-base: #f5f1eb;
+  --color-surface-white: #ffffff;
+  --color-surface-offwhite: #e9e4dc;
+  --color-surface-grey: #dad3c9;
+  --color-black-text: #4b2e24;
+  --color-mute-text: #6b7c59;
+  
+  --font-serif: "Sansita", "GladiaCML", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-black-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: var(--font-serif);
+}
+
+.bg-glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 60s linear infinite;
+}
+
+.animate-marquee-hero {
+  animation: marquee 13.5s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .animate-marquee {
+    animation: marquee 60s linear infinite;
+  }
+  .animate-marquee-hero {
+    animation: marquee 15s linear infinite;
+  }
+}
+
+@keyframes button-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+.animate-button-pulse {
+  animation: button-pulse 2s ease-in-out infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
