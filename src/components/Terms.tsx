@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Terms() {
   return (
@@ -23,7 +24,7 @@ export default function Terms() {
         <p>Os pagamentos são processados via Kiwify. O usuário tem direito ao prazo legal estipulado nas condições de compra para solicitar reembolso, caso não esteja satisfeito.</p>
       </div>
       <div className="mt-12">
-        <a href="/" className="text-gold font-bold hover:underline">← Voltar para a página inicial</a>
+        <Link to="/" className="text-gold font-bold hover:underline">← Voltar para a página inicial</Link>
       </div>
     </div>
   );

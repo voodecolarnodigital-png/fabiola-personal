@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Privacy() {
   return (
@@ -23,7 +24,7 @@ export default function Privacy() {
         <p>Podemos utilizar cookies para melhorar a navegação e entender a preferência do usuário em futuras visitas.</p>
       </div>
       <div className="mt-12">
-        <a href="/" className="text-gold font-bold hover:underline">← Voltar para a página inicial</a>
+        <Link to="/" className="text-gold font-bold hover:underline">← Voltar para a página inicial</Link>
       </div>
     </div>
   );
