@@ -53,7 +53,7 @@ function Hero() {
           preload="auto"
           className="w-full h-full object-cover object-center"
         >
-          <source src="/Video pagina hero.mp4" type="video/mp4" />
+          <source src="Video pagina hero.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black-text/70" />
       </div>
@@ -111,7 +111,7 @@ function ProblemAwareness() {
       <div className="relative order-2 md:order-1 mt-8 md:mt-0 max-w-sm mx-auto md:ml-auto md:mr-0">
         <div className="rounded-3xl overflow-hidden shadow-xl aspect-[3/4] w-full">
           <motion.img 
-            src="/pronto.JPG" 
+            src="pronto.JPG" 
             alt="Desafio com sorriso no rosto: Fabi sorrindo enquanto levanta peso na academia" 
             className="w-full h-full object-cover"
             loading="lazy"
@@ -241,44 +241,44 @@ function MethodFeatures() {
 function ImageGallery() {
   const testimonials = [
     {
-      beforeSrc: "/antes 1.png",
-      afterSrc: "/Depois 1.png",
+      beforeSrc: "antes 1.png",
+      afterSrc: "Depois 1.png",
       caption: "A menopausa tinha travado meu corpo e agora mudei por completo. O Turbo Max foi minha salvação.",
       author: "Vanessa G."
     },
     {
-      beforeSrc: "/antes 2.png",
-      afterSrc: "/depois 2.png",
+      beforeSrc: "antes 2.png",
+      afterSrc: "depois 2.png",
       caption: "Finalmente um método que funciona pro meu corpo e pra minha rotina real.",
       author: "Cláudia M."
     },
     {
-      beforeSrc: "/antes 3.png",
-      afterSrc: "/depois 3.png",
+      beforeSrc: "antes 3.png",
+      afterSrc: "depois 3.png",
       caption: "Minha barriga diminuiu muito e eu voltei a ter energia de sobra!",
       author: "Solange"
     },
     {
-      beforeSrc: "/Antes 4.png",
-      afterSrc: "/Depois 4.png",
+      beforeSrc: "Antes 4.png",
+      afterSrc: "Depois 4.png",
       caption: "Fazer parte do Queima Turbo Max me devolveu a autoestima e a autoconfiança.",
       author: "Marta S."
     },
     {
-      beforeSrc: "/antes 5.png",
-      afterSrc: "/Depois 5.png",
+      beforeSrc: "antes 5.png",
+      afterSrc: "Depois 5.png",
       caption: "Resultados que eu nunca tinha conseguido antes, nem com horas de academia.",
       author: "Rita"
     },
     {
-      beforeSrc: "/antes 6.png",
-      afterSrc: "/depois 6.png",
+      beforeSrc: "antes 6.png",
+      afterSrc: "depois 6.png",
       caption: "Treinos simples e rápidos que transformam de verdade o corpo da mulher.",
       author: "Fabiana Feitosa"
     },
     {
-      beforeSrc: "/antes 8.png",
-      afterSrc: "/depois 8.png",
+      beforeSrc: "antes 8.png",
+      afterSrc: "depois 8.png",
       caption: "A liberdade de treinar onde eu quiser e ver o resultado aparecendo no espelho.",
       author: "Lúcia Santos"
     }
@@ -399,7 +399,7 @@ function EverythingYouNeed() {
         {/* Top Left - Women Exercising */}
         <div className="row-span-1 rounded-[2rem] overflow-hidden shadow-lg border border-surface-grey/50">
           <video 
-            src="/video-casa.mp4" 
+            src="video-casa.mp4" 
             autoPlay 
             loop 
             muted 
@@ -412,7 +412,7 @@ function EverythingYouNeed() {
         {/* Right Tall - Gym Equipment */}
         <div className="row-span-2 rounded-[2.5rem] overflow-hidden shadow-lg border border-surface-grey/50">
           <img 
-            src="/foto-mosaico.JPG" 
+            src="foto-mosaico.JPG" 
             alt="Fabi na academia treinando com halter" 
             className="w-full h-full object-cover"
             loading="lazy"
@@ -423,7 +423,7 @@ function EverythingYouNeed() {
         {/* Bottom Left - Illustration / Lifestyle */}
         <div className="row-span-1 rounded-[2rem] overflow-hidden shadow-lg border border-surface-grey/50">
           <video 
-            src="/video-academia.mp4" 
+            src="video-academia.mp4" 
             autoPlay 
             loop 
             muted 
@@ -592,7 +592,7 @@ function AboutChallenge() {
           <div className="flex justify-center">
              <div className="relative w-full max-w-[320px] aspect-[9/16] bg-black rounded-3xl p-1 md:p-2 shadow-2xl overflow-hidden shadow-gold/20">
                <video 
-                 src="/novo-video-sobre.mp4" 
+                 src="novo-video-sobre.mp4" 
                  autoPlay 
                  loop 
                  muted 
@@ -652,7 +652,7 @@ function PricingSection() {
         </div>
         
         <div className="relative rounded-[2rem] overflow-hidden aspect-video lg:aspect-square max-w-sm mx-auto w-full shadow-lg border border-surface-grey/30">
-          <img src="/novo-ambiente-academia.JPG" alt="Halteres no ambiente de academia" className="w-full h-full object-cover" loading="lazy" />
+          <img src="novo-ambiente-academia.JPG" alt="Halteres no ambiente de academia" className="w-full h-full object-cover" loading="lazy" />
           <div className="absolute top-4 right-4 bg-glass px-3 py-1.5 rounded-lg !bg-black/60 !backdrop-blur text-white flex items-center gap-2">
              <div className="flex text-gold">
                 <Star size={12} fill="currentColor" /><Star size={12} fill="currentColor" /><Star size={12} fill="currentColor" /><Star size={12} fill="currentColor" /><Star size={12} fill="currentColor" />
@@ -671,7 +671,7 @@ function CoachesSection() {
       {/* Coach 1 */}
       <div className="max-w-7xl mx-auto px-8 mb-32 grid lg:grid-cols-2 gap-16 items-center">
         <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden rounded-bl-[10rem] shadow-xl">
-          <img src="/foto-precos.JPG" alt="Fabiola sentada na escadaria" className="w-full h-full object-cover" loading="lazy" />
+          <img src="foto-precos.JPG" alt="Fabiola sentada na escadaria" className="w-full h-full object-cover" loading="lazy" />
         </div>
         <div>
           <p className="text-mute-text text-sm uppercase tracking-wider font-bold mb-4">Quem está por trás do método</p>
