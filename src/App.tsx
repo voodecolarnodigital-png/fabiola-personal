@@ -627,7 +627,7 @@ function PricingSection() {
                 </div>
                 <div className="text-center sm:text-right">
                   <p className="text-sm text-mute-text mb-1">Por apenas</p>
-                  <span className="font-bold text-2xl md:text-3xl whitespace-nowrap">12x R$ 28,92</span>
+                  <span className="font-bold text-2xl md:text-3xl whitespace-nowrap">12x R$ 35,89</span>
                   <p className="text-sm font-bold text-gold-dark mt-1 whitespace-nowrap">ou R$ 347,00 à vista</p>
                 </div>
               </div>
