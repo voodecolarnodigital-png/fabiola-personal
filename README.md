@@ -1,6 +1,6 @@
-# Queima Turbo Max 2.0
+# Você Diva na Menopausa
 
-Site oficial do programa **Queima Turbo Max 2.0**, desenvolvido por Fabiola Feliciano. Focado em transformação corporal para mulheres na menopausa através de um método prático, rápido e eficiente.
+Site oficial do programa **Você Diva na Menopausa**, desenvolvido por Fabiola Feliciano. Focado em transformação corporal para mulheres na menopausa através de um método prático, rápido e eficiente.
 
 ## 🚀 Tecnologias Utilizadas
 
