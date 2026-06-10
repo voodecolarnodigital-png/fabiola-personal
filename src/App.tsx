@@ -795,7 +795,7 @@ export default function App() {
              <p className="text-mute-text mb-8">Ou pode começar com um método que já funciona.</p>
              
              <a href="https://pay.kiwify.com.br/a1AR20y" target="_blank" rel="noopener noreferrer" className="inline-block text-center bg-gold hover:bg-gold-dark text-white px-10 py-4 rounded-full text-lg font-bold transition-all shadow-lg hover:scale-105 animate-button-pulse">
-               Quero entrar no Você Diva!
+               Quero Fazer Parte!
              </a>
           </div>
           <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-mute-text border-t border-surface-grey pt-8 pb-12">
