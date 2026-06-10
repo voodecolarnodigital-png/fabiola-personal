@@ -470,7 +470,7 @@ function AboutChallenge() {
       `}</style>
       <div className="max-w-7xl mx-auto px-8 relative z-10">
         <div className="text-center mb-16">
-          <p className="uppercase tracking-widest text-[#a88655] font-bold text-sm mb-4">Sobre o Queima Turbo Max 2.0</p>
+          <p className="uppercase tracking-widest text-[#a88655] font-bold text-sm mb-4">Sobre o Você Diva na Menopausa</p>
           <h2 className="font-serif text-4xl md:text-5xl text-white">O que você vai receber</h2>
           <p className="text-surface-grey mt-4 max-w-2xl mx-auto">Um programa criado especialmente para mulheres na menopausa que querem emagrecer, desinchar e recuperar a autoestima sem precisar viver na academia.</p>
         </div>
@@ -763,7 +763,7 @@ export default function App() {
         <div className="bg-surface-offwhite py-16">
           <div className="max-w-5xl md:flex mx-auto px-8 items-center gap-16">
              <div className="flex-1 space-y-6">
-               <h2 className="font-serif text-4xl">Pra quem é o Queima Turbo Max 2.0?</h2>
+               <h2 className="font-serif text-4xl">Pra quem é o Você Diva na Menopausa?</h2>
                <ul className="space-y-4 text-mute-text text-lg">
                  <li><span className="text-gold font-bold mr-2">✔</span> Mulheres na menopausa</li>
                  <li><span className="text-gold font-bold mr-2">✔</span> Que estão cansadas de tentar sem resultado</li>
