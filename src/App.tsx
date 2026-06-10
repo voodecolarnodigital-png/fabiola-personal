@@ -22,11 +22,11 @@ function Navbar() {
   return (
     <nav className="absolute top-0 w-full z-50">
       <div className="bg-gold text-white text-center text-sm font-semibold py-2 px-4">
-        VAGAS ABERTAS | Queima Turbo Max 2.0 - Recupere sua energia na Menopausa
+        VAGAS ABERTAS | Recupere sua energia na Menopausa
       </div>
       <div className="flex flex-col md:flex-row items-center md:justify-between gap-6 px-4 md:px-8 py-6 max-w-7xl mx-auto relative">
         <span className="text-2xl md:text-3xl font-serif italic text-white tracking-widest drop-shadow-md whitespace-nowrap">
-          Queima Turbo Max 2.0
+          Você Diva na Menopausa
         </span>
         
         {/* Menu (Visible on both mobile and desktop with responsive adjustments) */}
@@ -243,7 +243,7 @@ function ImageGallery() {
     {
       beforeSrc: "antes 1.png",
       afterSrc: "Depois 1.png",
-      caption: "A menopausa tinha travado meu corpo e agora mudei por completo. O Turbo Max foi minha salvação.",
+      caption: "A menopausa tinha travado meu corpo e agora mudei por completo. O Método da Fabiola foi minha salvação.",
       author: "Vanessa G."
     },
     {
@@ -261,7 +261,7 @@ function ImageGallery() {
     {
       beforeSrc: "Antes 4.png",
       afterSrc: "Depois 4.png",
-      caption: "Fazer parte do Queima Turbo Max me devolveu a autoestima e a autoconfiança.",
+      caption: "Fazer parte do treinamento da Fabiola me devolveu a autoestima e a autoconfiança.",
       author: "Marta S."
     },
     {
@@ -491,13 +491,13 @@ function AboutChallenge() {
             {[0, 1, 2, 3, 4].map((blockIdx) => {
               // Inverter a ordem das palavras para que "HIIT" seja a locomotiva entrando primeiro pela Esquerda
               const baseItems = [
-                { icon: CustomPulseIcon, text: "NUTRICIONISTA" },
+                { icon: CustomPulseIcon, text: "NUTRIÇÃO" },
                 { icon: CustomPulseIcon, text: "SAMBA" },
                 { icon: CustomPulseIcon, text: "ABDOMINAL" },
                 { icon: CustomPulseIcon, text: "SUPER BAND" },
                 { icon: CustomPulseIcon, text: "SPINNING" },
                 { icon: CustomPulseIcon, text: "FULL BODY" },
-                { icon: CustomPulseIcon, text: "HIT" }
+                { icon: CustomPulseIcon, text: "HITT" }
               ];
               
               // ACHATANDO TUDO PARA UMA LINHA ÚNICA (LETRAS, ÍCONES, ESPAÇOS E PONTOS)
@@ -565,7 +565,7 @@ function AboutChallenge() {
             </div>
             <div className="flex items-center gap-4 py-4 border-b border-surface-grey/20">
               <Star className="text-[#a88655] shrink-0" />
-              <span className="font-serif text-xl flex-1 text-surface-offwhite">Método simples, direto e adaptado à menopausa</span>
+              <span className="font-serif text-xl flex-1 text-surface-offwhite">Método simples, direto e adaptado à menopausa e mulheres 30+</span>
               <span className="text-[#a88655] font-light text-2xl">+</span>
             </div>
             <div className="flex items-center gap-4 py-4 border-b border-surface-grey/20">
@@ -622,7 +622,7 @@ function PricingSection() {
            <div className="space-y-4">
               <div className="border-2 border-gold rounded-xl p-6 flex flex-col sm:flex-row justify-between items-center bg-white cursor-pointer hover:border-gold-dark transition shadow-lg">
                 <div className="mb-4 sm:mb-0 text-center sm:text-left">
-                  <span className="font-bold text-lg">Acesso Completo Turbo Max 2.0</span>
+                  <span className="font-bold text-lg">Acesso Completo Você Diva na Menopausa</span>
                   <p className="text-sm text-mute-text line-through mt-2">De: R$ 997,00</p>
                 </div>
                 <div className="text-center sm:text-right">
@@ -795,7 +795,7 @@ export default function App() {
              <p className="text-mute-text mb-8">Ou pode começar com um método que já funciona.</p>
              
              <a href="https://pay.kiwify.com.br/a1AR20y" target="_blank" rel="noopener noreferrer" className="inline-block text-center bg-gold hover:bg-gold-dark text-white px-10 py-4 rounded-full text-lg font-bold transition-all shadow-lg hover:scale-105 animate-button-pulse">
-               Quero entrar no Queima Turbo Max 2.0
+               Quero entrar no Você Diva!
              </a>
           </div>
           <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-mute-text border-t border-surface-grey pt-8 pb-12">
