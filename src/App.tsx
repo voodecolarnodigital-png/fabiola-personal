@@ -22,11 +22,11 @@ function Navbar() {
   return (
     <nav className="absolute top-0 w-full z-50">
       <div className="bg-gold text-white text-center text-sm font-semibold py-2 px-4">
-        VAGAS ABERTAS | Recupere sua energia na Menopausa
+        VAGAS ABERTAS |  Você Diva na Menopausa - Recupere sua energia na Menopausa
       </div>
       <div className="flex flex-col md:flex-row items-center md:justify-between gap-6 px-4 md:px-8 py-6 max-w-7xl mx-auto relative">
         <span className="text-2xl md:text-3xl font-serif italic text-white tracking-widest drop-shadow-md whitespace-nowrap">
-          Você Diva na Menopausa
+         
         </span>
         
         {/* Menu (Visible on both mobile and desktop with responsive adjustments) */}
