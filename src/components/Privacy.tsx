@@ -6,7 +6,7 @@ export default function Privacy() {
     <div className="min-h-screen bg-bg-base py-24 px-8 max-w-4xl mx-auto">
       <h1 className="font-serif text-4xl mb-8">Política de Privacidade</h1>
       <div className="prose prose-stone max-w-none text-mute-text space-y-6">
-        <p>Sua privacidade é muito importante para nós. Esta política explica como coletamos e utilizamos suas informações no Queima Turbo Max 2.0.</p>
+        <p>Sua privacidade é muito importante para nós. Esta política explica como coletamos e utilizamos suas informações no Você Diva na Menopausa.</p>
         
         <h2 className="text-2xl font-serif text-black-text">1. Coleta de Informações</h2>
         <p>Coletamos informações básicas como nome e e-mail no momento da inscrição para que possamos fornecer acesso ao programa e enviar comunicações importantes.</p>
