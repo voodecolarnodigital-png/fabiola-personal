@@ -622,13 +622,13 @@ function PricingSection() {
            <div className="space-y-4">
               <div className="border-2 border-gold rounded-xl p-6 flex flex-col sm:flex-row justify-between items-center bg-white cursor-pointer hover:border-gold-dark transition shadow-lg">
                 <div className="mb-4 sm:mb-0 text-center sm:text-left">
-                  <span className="font-bold text-lg">Acesso Completo Você Diva na Menopausa</span>
-                  <p className="text-sm text-mute-text line-through mt-2">De: R$ 997,00</p>
+                  <span className="font-bold text-lg"> Tenha Acesso Completo ao Treinamento Você Diva na Menopausa</span>
+                  <p className="text-sm text-mute-text line-through mt-2"></p>
                 </div>
                 <div className="text-center sm:text-right">
-                  <p className="text-sm text-mute-text mb-1">Por apenas</p>
-                  <span className="font-bold text-2xl md:text-3xl whitespace-nowrap">12x R$ 35,89</span>
-                  <p className="text-sm font-bold text-gold-dark mt-1 whitespace-nowrap">ou R$ 347,00 à vista</p>
+                  <p className="text-sm text-mute-text mb-1"></p>
+                  <span className="font-bold text-2xl md:text-3xl whitespace-nowrap"></span>
+                  <p className="text-sm font-bold text-gold-dark mt-1 whitespace-nowrap"></p>
                 </div>
               </div>
            </div>
